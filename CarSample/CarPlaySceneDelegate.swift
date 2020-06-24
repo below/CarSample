@@ -13,6 +13,10 @@ import CarPlay
 class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
     var interfaceController: CPInterfaceController?
 
+    func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
+        debugPrint("Will Connect")
+    }
+
     func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene,
             didConnect interfaceController: CPInterfaceController) {
 

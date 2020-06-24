@@ -28,13 +28,11 @@
 				<key>UISceneClassName</key>
 				<string>CPTemplateApplicationScene</string>
 				<key>UISceneDelegateClassName</key>
-                <string>CarSample.CarPlaySceneDelegate</string>
+				<string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
 				<key>UISceneConfigurationName</key>
-				<string>CarPlay</string>
+				<string>CarPlay Configuration</string>
 			</dict>
 		</array>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
