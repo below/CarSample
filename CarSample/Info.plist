@@ -22,8 +22,6 @@
 	<true/>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
-		<key>UIApplicationSupportsMultipleScenes</key>
-		<true/>
 		<key>UISceneConfigurations</key>
 		<dict>
 			<key>UIWindowSceneSessionRoleApplication</key>
@@ -37,17 +35,17 @@
 					<string>Main</string>
 				</dict>
 			</array>
-            <key>CPTemplateApplicationSceneSessionRoleApplication</key>
-            <array>
-                <dict>
-                    <key>UISceneClassName</key>
-                    <string>CPTemplateApplicationScene</string>
-                    <key>UISceneDelegateClassName</key>
-                    <string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
-                    <key>UISceneConfigurationName</key>
-                    <string>CarPlay Configuration</string>
-                </dict>
-            </array>
+			<key>CPTemplateApplicationSceneSessionRoleApplication</key>
+			<array>
+				<dict>
+					<key>UISceneClassName</key>
+					<string>CPTemplateApplicationScene</string>
+					<key>UISceneDelegateClassName</key>
+					<string>$(PRODUCT_MODULE_NAME).CarPlaySceneDelegate</string>
+					<key>UISceneConfigurationName</key>
+					<string>CarPlay Configuration</string>
+				</dict>
+			</array>
 		</dict>
 	</dict>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
