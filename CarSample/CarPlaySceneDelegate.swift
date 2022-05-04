@@ -17,7 +17,7 @@ class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
             didConnect interfaceController: CPInterfaceController) {
 
         self.interfaceController = interfaceController
-        let item = CPListItem(text: "Rubber Soul", detailText: "The Beatles")
+        let item = CPListItem(text: "List1", detailText: "List1 Detail")
         let section = CPListSection(items: [item])
         let listTemplate = CPListTemplate(title: "Albums", sections: [section])
         interfaceController.setRootTemplate(listTemplate, animated: true)
