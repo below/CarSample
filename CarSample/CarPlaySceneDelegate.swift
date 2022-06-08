@@ -20,7 +20,11 @@ class CarPlaySceneDelegate: UIResponder, CPTemplateApplicationSceneDelegate {
         let item = CPListItem(text: "Rubber Soul", detailText: "The Beatles")
         let section = CPListSection(items: [item])
         let listTemplate = CPListTemplate(title: "Albums", sections: [section])
-        interfaceController.setRootTemplate(listTemplate, animated: true)
+        // SwiftC apparently requires the explicit inclusion of the completion parameter,
+        // otherwise it will throw a warning
+        interfaceController.setRootTemplate(listTemplate,
+                                            animated: true,
+                                            completion: nil)
     }
 
     func templateApplicationScene(_ templateApplicationScene: CPTemplateApplicationScene, didDisconnectInterfaceController interfaceController: CPInterfaceController) {
